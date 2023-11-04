@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.alinhar{
+    list-style: none; /*retira o marcador*/
+    display:inline;
+    margin-right: 40px;
+}
+
+.cabecalho {
+    background-color: #594866;
+    height: 103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lista-menu li>a{
+    color:rgb(163, 163, 117);
+    font-size: 18px;
+    text-decoration: none; /*retira o sublinhado*/
+}
+
+nav {
+    margin-right: 50px;
+}
+.perfil {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ad78af; */
+    background-color: #5b7777;
+    height: 350px;
+    max-height: 100%;*/
+    padding: 0 16px;
+}
+.minha-descricao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 490px;
+    text-align: center;
+
+}
+.ordenar{
+    display: inline-block    
+}
+
+img {
+    margin-top: 47px;
+    margin-bottom: 26px;
+}
+.formacao {
+    background-color: #e5e5e5; */
+    background-color: #38333f;
+    height: 100%;
+    color: rgb(0, 0, 0);
+}
+h2 {
+    color: #89788a;
+    margin-left: 138px;
+    padding-top: 61px;
+
+}
+.primeira-formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+.descricao-formacao {
+    width: 400px;
+    margin-bottom: 16px; */
+
+}
+.meus-projetos{
+    background-color: #EDEAEA;
+    height: 300px;
+}
+h3{
+    
+}
+.container-rodape {
+    margin-left: 60px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    background-color: #594866;;
+    height: 200px;
+}
+
+.link-rodape {
+    color: #ae8cbb;
+    text-decoration-line: underline;
+}
+
+.fa-brands, .fab {
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+}
